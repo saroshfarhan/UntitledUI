@@ -1,0 +1,344 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+p, label{
+    color: #878d99;
+}
+
+.container{
+    width: 50vw;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    margin-left: 1rem;;
+}
+
+
+.logo-tab{
+    display: none;
+}
+
+.logo--circle {
+    border-radius: 3rem;
+    border: 3px solid #222222;
+    width: .01rem;
+    height: .01rem;
+    margin-right: .5rem;
+    margin-top: 1.5rem;
+}
+
+form{
+    align-content: center;
+    padding: 1rem 8rem; 
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+form > h2{
+    margin: 0;
+    color: #222222;
+    font-size: 4rem;
+}
+
+form > h4{
+    margin: 0;
+    color: #9a9aa1;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+.field-name{
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+.password{
+    margin-top: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.text-input{
+    height: 2.3rem;
+    border-radius: .2rem;
+    border: 1px solid #bababd;;
+    padding-left: 1rem;
+}
+
+::-moz-placeholder{
+    color: gray;
+}
+
+.remember{
+    margin-top: 1.3rem;
+    align-content: space-between;
+}
+
+.forgot-pwd{
+    margin-left: 10.2rem;
+    text-decoration: none;
+    color: #7f56da;
+}
+
+.forgot-pwd:hover{
+    cursor: pointer;
+}
+
+.login-button{
+    background-color: #7f56da;
+    color: #f2e1ff;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: 0;
+    border-radius: .3rem;
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    background-color: #5d30be;
+}
+
+.g-img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: .8rem;
+    margin-bottom: -2px
+}
+
+.login-google{
+    background-color: #ffffff;
+    color: #484f5a;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: 1px solid #d8d8d8;
+    border-radius: .3rem;
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.login-google:hover{
+    cursor: pointer;
+    background-color: #d7d7db;
+    color: #4b4a4a;
+}
+
+.signup-text{
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.signup{
+    text-decoration: none;
+    color: #7f56da;
+}
+
+.signup:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.artwork{
+    height: 100vh;
+    width: 50vw;
+    margin-left: auto;
+}
+
+.artwork > img {
+    height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 810px) {
+
+    div.logo{
+        display: none;
+    }
+
+    div.artwork{
+        display: none;
+    }
+
+    .logo-tab{
+        display: block;
+        align-self: center;
+    }
+
+    form > h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    form > h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    form{
+        align-content: center;
+        padding: 1rem 8rem; 
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forgot-pwd{
+        margin-left: 15.6rem;
+        text-decoration: none;
+        color: #7f56da;
+    }
+
+
+} 
+
+/* 384 */
+@media only screen and (max-width: 384px) {
+
+    div.logo{
+        display: none;
+    }
+
+    div.artwork{
+        display: none;
+    }
+
+    .logo-mob{
+        display: block;
+        align-self: center;
+    }
+
+    form > h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    form > h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    form{
+        align-content: center;
+        padding: 1rem 2rem;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forgot-pwd{
+        margin-left: 1rem;
+        text-decoration: none;
+        color: #7f56da;
+    }
+
+}
+
+@media only screen and (max-width: 428px) {
+
+    div.logo{
+        display: none;
+    }
+
+    div.artwork{
+        display: none;
+    }
+
+    .logo-mob{
+        display: block;
+        align-self: center;
+    }
+
+    form > h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    form > h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    form{
+        align-content: center;
+        padding: 1rem 2rem;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forgot-pwd{
+        margin-left: 4rem;
+        text-decoration: none;
+        color: #7f56da;
+    }
+
+}
+
+
+@media only screen and (max-width: 411px) {
+
+    div.logo{
+        display: none;
+    }
+
+    div.artwork{
+        display: none;
+    }
+
+    .logo-mob{
+        display: block;
+        align-self: center;
+    }
+
+    form > h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    form > h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    form{
+        align-content: center;
+        padding: 1rem 2rem;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forgot-pwd{
+        margin-left: 3rem;
+        text-decoration: none;
+        color: #7f56da;
+    }
+
+}
+
